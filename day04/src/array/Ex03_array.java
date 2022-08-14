@@ -15,7 +15,7 @@ public class Ex03_array {
 		intArray[3] = 400;
 		intArray[4] = 500;
 		
-		System.out.println(intArray[0]);  // 100
+		System.out.println(intArray[0]); // 100
 		System.out.println(intArray[1]);  // 200
 		System.out.println(intArray[2]);  // 300
 		System.out.println(intArray[3]);  // 400
