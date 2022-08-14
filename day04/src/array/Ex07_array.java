@@ -46,6 +46,7 @@ public class Ex07_array {
 		// 이중 for문 사용
 		
 		for(int i = 0; i < name.length; i++) {
+			// t는 rank[i] = 1 을 여기에 넣었다
 			for(int j = 0; j < name.length; j++) {
 				if(total[i] < total[j]) {
 					rank[i]++;
@@ -58,9 +59,12 @@ public class Ex07_array {
 		
 		// 출력
 		for(int i = 0; i < name.length; i++) {
-			System.out.println(i+1 + "번째 학생 : " + name[i]);
-			System.out.println("총점 : " + total[i]);
-			System.out.println("순위 : " + rank[i]);
+			//System.out.println(i+1 + "번째 학생 : " + name[i]);
+			//System.out.println("총점 : " + total[i]);
+			//System.out.println("순위 : " + rank[i]);
+			
+			System.out.printf("%s님의 총점은 %d점이고, 순위는 %d등 입니다.\n",
+					name[i], total[i], rank[i]);
 		}
 		
 		
