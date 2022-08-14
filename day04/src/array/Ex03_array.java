@@ -22,6 +22,21 @@ public class Ex03_array {
 		System.out.println(intArray[4]);  // 500
 		
 		
+		System.out.println();
+		
+		
+		
+		// for문으로 출력
+		for(int i = 0; i < intArray.length; i++) {
+			System.out.println(intArray[i]);  // i: 제어변수
+		}
+		
+		
+		
+		// 배열의 길이: 배열변수.length
+		System.out.println("배열의 길이: " + intArray.length);   // 배열의 길이: 5
+		
+		
 	}
 
 }
