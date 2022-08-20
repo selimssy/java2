@@ -1,7 +1,7 @@
 package pack01_access_modifier;
 
 
-class B{    // defalult class는 다른패키지에서 접근 불가
+class B{    // default class는 다른패키지에서 접근 불가
 	
 }
 
