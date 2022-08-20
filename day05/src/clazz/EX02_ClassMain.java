@@ -1,4 +1,4 @@
-package clazz_1;
+package clazz;
 
 
 
