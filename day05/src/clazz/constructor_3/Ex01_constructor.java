@@ -12,7 +12,8 @@ class Student{
 	
 	// 생성자
 	// 생성자 명시 안하면 자바컴파일러가 기본생성자 생성
-	// 그러나 생성자를 명시해주면 만들지 않는다......
+	// 그러나 생성자를 명시해주면 만들지 않는다......★
+	// 생성자 앞에 void 절대 쓰지 않는다!!! 제한자 뒤에 바로 Student() 이런식으로!!★★
 	public Student(int studentID, String name, int age) {
 		this.studentID = studentID;
 		this.name = name;
@@ -25,11 +26,10 @@ class Student{
 
 
 
-public class Ex01 {
+public class Ex01_constructor {
 
 	public static void main(String[] args) {
 		
-		// 객체를 생성하면 생성자가 호출이 되고 필드초기화와 메소드 호출 등 객체를 사용할 준비를 한다
 		
 		//Student stud = new Student();  
 		// 생성자를 명시해서 만들었기 때문에 기본생성자 안만들어져서 위와 같이 기본생성자 사용 불가!!!(꼭 기본생성자 쓰고싶으면 기본생성자를 직접 명시해줘야)
