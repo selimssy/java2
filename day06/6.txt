@@ -59,3 +59,27 @@ super.run();
 
 
 // 다형성은 부모타입의 변수를 자식객체로 생성하는 것(부모필드와 부모메소드만 접근 가능!!)
+
+Parent poly3 = poly2;   // 다시 업캐스팅(자동 타입변환)
+
+
+
+class Person extends Run{
+	
+	String name = "홍길동";
+	
+	public void walk() {
+		System.out.println(name + "이 산책을 한다.");
+	}
+
+
+	public void run() {
+		System.out.println(name + "이 " + speed + "의 속도로 달린다");    // 여기서는 자식에게만 있는 name에 접근 가능!!★
+		walk();     // 역시 자식에게만 있는 walk() 도 접근 가능!!★
+	}
+
+}
+
+
+
+추상클래스는 객체들의 규격 맞추는 설계도 느낌
