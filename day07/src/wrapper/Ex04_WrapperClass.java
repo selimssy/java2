@@ -9,6 +9,7 @@ public class Ex04_WrapperClass {
 		// ※유의사항: str을 parseInt 메소드 통해 int 타입으로 바꿀 때 "100a" 이런게 들어가면 안된다!!(에러) 
 		
 		String num_str = "12345";
+		//num_str = "1234"; 이거 되넹
 		
 		int value = Integer.parseInt(num_str);
 		System.out.println(value);  // 12345
