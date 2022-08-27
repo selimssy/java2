@@ -1,0 +1,8 @@
+자바의 Default Method (디펄트 메소드)
+https://siyoon210.tistory.com/95
+
+
+
+toString 메서드가
+String 클래스에서는 그 문자열 그대로 출력되도록 재정의,
+Wrapper 클래스에서는 기본값이 문자열로 출력되도록 재정의!
