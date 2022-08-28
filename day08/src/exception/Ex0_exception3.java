@@ -1,6 +1,6 @@
 package exception;
 
-public class Ex03 {
+public class Ex0_exception3 {
 
 	public static void main(String[] args) {
 		

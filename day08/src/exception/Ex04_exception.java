@@ -1,6 +1,6 @@
 package exception;
 
-public class Ex04 {
+public class Ex04_exception {
 	
 	
 	public static void myMethod() throws ClassNotFoundException{
